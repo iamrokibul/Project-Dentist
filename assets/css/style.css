@@ -43,6 +43,7 @@ section, .immidiate_action{
 }
 .section-title h2{
     position: relative;
+    font-weight: 700;
 }
 .section-title h2:after {
     background: #358bee;
@@ -51,6 +52,13 @@ section, .immidiate_action{
     height: 5px;
     margin: 15px auto;
     width: 80px;
+}
+/* Navigation Bar  */
+.navbar-brand {
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px #a1a1a1;
 }
 /* Hero area  */
 .hero_area{
