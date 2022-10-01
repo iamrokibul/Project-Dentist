@@ -1,0 +1,319 @@
+/* Common style  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: #358bee;
+}
+h1, h2, h3, h4, h5, p{
+    margin: 0 0 5px;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+section, .immidiate_action{
+    padding: 50px 0;
+}
+.section-title{
+    width: 50%;
+    margin: auto auto 1.7rem;
+    box-sizing: border-box;
+}
+.section-title h2{
+    position: relative;
+}
+.section-title h2:after {
+    background: #358bee;
+    content: '';
+    display: block;
+    height: 5px;
+    margin: 15px auto;
+    width: 80px;
+}
+/* Hero area  */
+.hero_area{
+    min-height: 400px;
+}
+.hero_text h1{
+    font-size: 7vh;
+    text-transform: uppercase;
+}
+.hero_text p{
+    font-size: 2.5vh;
+}
+.hero_text button{
+    margin: 0 3px;
+    border: 1px solid #358bee;
+    border-radius: 0;
+}
+.hero_text button.border:hover{
+    background-color: #358bee;
+    color: #fff;
+}
+.hero_text button.btn-success:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #358bee
+}
+/* Care area  */
+.care_area{
+    padding: 20px 0;
+    background: #358bee;
+}
+.single_care{
+    border: 1px solid #fff;
+    padding: 20px 10px;
+}
+.single_care{
+    border-right: none;
+    color: #fff;
+    background: #358bee;
+}
+.last-care{
+    border-right: 1px solid #fff;
+}
+.single_care i{
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.single_care h5{
+    font-size: 18px;
+}
+/* Why choose us  */
+.why_choose_image{
+    width: 100%;
+    height: auto;
+}
+.why_choose_image{
+    width: 100%;
+    height: 100%;
+}
+.why_choose_text span{
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 5vh;
+    text-transform: uppercase;
+}
+.why_choose_text p{
+    margin: 10px 0;
+}
+.why_choose_text ul{
+    margin-left: 15px;
+}
+.why_choose_text ul li{
+    margin: 3px 0;
+}
+.why_choose_text i{
+    color: #358bee;
+    margin-right: 5px;
+}
+/* Immidiate take action  */
+.immidiate_action{
+    background: #eee;
+    padding-bottom: 20px;
+}
+.single_action{
+    margin-bottom: 30px;
+}
+.single_action i{
+    font-size: 45px;
+    padding: 50px;
+    background: #358bee;
+    border-radius: 50%;
+    color: #fff;
+}
+.single_action p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Service section  */
+section.services_area, section.blog_area{
+    background: #DEE1E6;
+}
+.single_service{
+    border: 1px solid transparent;
+    padding: 30px 20px;
+    margin-top: 20px;
+    background:#fff;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+    transition: .3s;
+}
+.single_service i{
+    width: 130px;
+    height: 130px;
+    font-size: 40px;
+    line-height: 130px;
+    background: #eee;
+    border-radius: 50%;
+    transition: .3s;
+}
+.single_service h4{
+    margin: 15px 0;
+}
+.single_service a{
+    margin-top: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.single_service:hover{
+    border: 1px solid #358bee;
+}
+.single_service a:hover{
+    border-bottom: 1px solid #358bee;
+}
+.single_service:hover i{
+    background: #358bee;
+    color: #fff;
+}
+.single_service:hover a{
+    color: #358bee;
+}
+/* Team Area */
+.team_area{padding-bottom: 20px;}
+.single_teammate{
+    margin-bottom: 30px;
+}
+.team_person_pic img{
+    border: 5px solid #000;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+.single_teammate:hover .team_person_pic img{
+    border: 5px solid #358bee;
+}
+.team_person_details i{
+    margin: 15px 3px;
+    font-size: 18px;
+}
+.team_person_details i:hover{
+    color: #358bee;
+}
+/* Blog Area */
+section.blog_area{
+    padding-bottom: 30px;
+}
+.single_blog{
+    border: 1px solid #aaa;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.blog_content{
+    padding: 15px;
+}
+.blog_content a.category, .blog_content a.read_more{
+    margin-bottom: 10px;
+    border-radius: 0;
+    border: 1px solid #aaa;
+    background: transparent;
+    color: #000;
+    padding: 3px 15px;
+    font-size: 14px;
+}
+.blog_content a.category:hover, .blog_content a.read_more:hover{
+    background: #358bee;
+    color: #fff;
+}
+.blog_content span{margin-right: 5px;}
+.blog_content h4{
+    font-size: 4vh;
+    font-weight: 700;
+}
+.blog_content a.read_more{
+    padding: 5px 15px;
+    margin-top: 15px;
+    float: right;
+}
+/* Appoinment Area  */
+.contact_form{
+    border: 1px solid #aaa;
+    padding: 0 50px 50px;
+}
+.contact_form h4{
+    margin: 25px 0;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #aaa;
+}
+.contact_form label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.contact_form input[type="text"],
+.contact_form input[type="number"],
+.contact_form input[type="email"],
+.contact_form textarea{
+    width: 100%;
+    border-radius: 0;
+    padding: 10px;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+.contact_form input[type="text"]:focus-visible,
+.contact_form input[type="number"]:focus-visible,
+.contact_form input[type="email"]:focus-visible,
+.contact_form textarea:focus-visible{
+    outline: 0;
+    border: 1px solid #aaa;
+}
+.contact_form textarea{
+    width: 100%;
+}
+.contact_form input[type="submit"]{
+    background: transparent;
+    color: #000;
+    border-radius: 0;
+    padding: 7px 25px;
+    font-size: 18px;
+    border-color: #358bee;
+    transition: .3s;
+}
+.contact_form input[type="submit"]:hover{
+    background: #358bee;
+    color: #fff;
+}
+
+/* Footer area  */
+footer{
+    background: black;
+    padding: 30px 0;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 1.2em;
+}
+footer a{
+    color: #fff;
+    text-decoration: underline;
+}
